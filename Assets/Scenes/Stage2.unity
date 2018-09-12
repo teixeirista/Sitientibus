@@ -311,7 +311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 142}
+  m_AnchoredPosition: {x: 0, y: 47}
   m_SizeDelta: {x: 939.3, y: 634.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237512747
@@ -346,7 +346,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\"- Madame Justi\xE7a... este \xE9 V. \n- V... esta \xE9 a Madame Justi\xE7a\""
+  m_Text: 'I
+
+    II
+
+    III
+
+    VIII'
 --- !u!222 &237512748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -493,7 +499,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1. S\xF3 o tutorial. Sem compromisso"
+  m_Text: "2. ...mas j\xE1 n\xE3o \xE9 mais"
 --- !u!222 &584941380
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -732,7 +738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2056525661
 RectTransform:
   m_ObjectHideFlags: 0
@@ -783,7 +789,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Exposta num dos quatro cantos do mapa
+  m_Text: "N\xE3o se l\xEA como os romanos"
 --- !u!222 &2056525663
 CanvasRenderer:
   m_ObjectHideFlags: 0

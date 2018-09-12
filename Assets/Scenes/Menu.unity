@@ -726,7 +726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "vers\xE3o de demonstra\xE7\xE3o\nv 0.1"
+  m_Text: "vers\xE3o alpha\nv 0.1"
 --- !u!222 &1515612385
 CanvasRenderer:
   m_ObjectHideFlags: 0
