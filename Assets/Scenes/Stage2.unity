@@ -346,9 +346,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'I
-
-    II
+  m_Text: 'I    II
 
     III
 
@@ -709,10 +707,6 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1768477163092984, guid: 8d0326aa74d736743973fe8e2f657c29, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d0326aa74d736743973fe8e2f657c29, type: 2}

@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 222296666028542478}
   - component: {fileID: 114470552845624370}
   - component: {fileID: 114641827126312144}
-  - component: {fileID: 114457987946961938}
+  - component: {fileID: 114425091177570284}
   m_Layer: 5
   m_Name: AnswerInputField
   m_TagString: Untagged
@@ -147,7 +147,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Resposta incorreta
---- !u!114 &114457987946961938
+--- !u!114 &114425091177570284
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1768477163092984}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba10df3719dfc6c4a8528b06db7c6b18, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dd0add86ce0da7449415bd34bd1cae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   wrong: {fileID: 1070236939219948}
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114457987946961938}
+      - m_Target: {fileID: 114425091177570284}
         m_MethodName: VerifyAnswer
         m_Mode: 1
         m_Arguments:

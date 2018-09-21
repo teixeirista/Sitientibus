@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Answer : MonoBehaviour {
+public class FontScript : MonoBehaviour {
 
 	InputField iField;
 	string answer;
@@ -20,13 +20,13 @@ public class Answer : MonoBehaviour {
 		answer = iField.text.ToLower();
 		wrong.SetActive(false);
 
-		if(answer.Contains("anarquia") && answer.Contains("sexo")) {
+		if(answer.Contains("feira de santana")) {
 			SceneManager.LoadScene(2);
 		} 
-		else if(answer.Contains("breaking bad") && answer.Contains("game of thrones") && answer.Contains("chico")){
+		else if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")){
 			SceneManager.LoadScene(3);
 		}
-		else if(answer.Contains("mundo maldito")) {
+		else if(answer.Contains("festa de santana")) {
 			SceneManager.LoadScene(4);
 		}
 		else {
