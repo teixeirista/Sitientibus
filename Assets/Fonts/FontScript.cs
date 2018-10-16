@@ -27,23 +27,59 @@ public class FontScript : MonoBehaviour {
 		else if(answer.Contains("trem") && answer.Contains("tomba")) {
 			SceneManager.LoadScene(3);
 		}
-		else if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
-			SceneManager.LoadScene(3);
-		}
-		else if(answer.Contains("festa") && answer.Contains("de") && answer.Contains("santana")) {
+		else if(answer.Contains("")) {
 			SceneManager.LoadScene(4);
 		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(5);
+		}
+		else if(answer.Contains("atormentado")) {
+			SceneManager.LoadScene(6);
+		}
+		else if(answer.Contains("ruy barbosa")) {
+			SceneManager.LoadScene(7);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(8);
+		}
+		else if(answer.Contains("pindoba") && answer.Contains("tábua") && answer.Contains("prato raso") && answer.Contains("grande") && answer.Contains("salgada") && answer.Contains("geladinho") && answer.Contains("subaé") && answer.Contains("chico maia") && answer.Contains("berreca")) {
+			SceneManager.LoadScene(9);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(10);
+		}
+		else if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
+			SceneManager.LoadScene(11);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(12);
+		}
 		else if(answer.Contains("1009")) {
-			SceneManager.LoadScene(5);
+			SceneManager.LoadScene(13);
 		}
-		else if(answer.Contains("ovni")) {
-			SceneManager.LoadScene(5);
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(14);
 		}
-		else if(answer.Contains("princesa do sertão")) {
-			SceneManager.LoadScene(5);
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(15);
 		}
-		else if(answer.Contains("todos os caminhos")) {
-			SceneManager.LoadScene(5);
+		else if(answer.Contains("festa") && answer.Contains("de") && answer.Contains("santana")) {
+			SceneManager.LoadScene(16);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(17);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(18);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(19);
+		}
+		else if(answer.Contains("")) {
+			SceneManager.LoadScene(20);
+		}
+		else if(answer.Contains("todos os caminhos levam a feira de santana")) {
+			SceneManager.LoadScene(21);
 		}
 		else {
 			wrong.SetActive(true);
