@@ -310,8 +310,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 13}
-  m_SizeDelta: {x: 939.3, y: 634.4}
+  m_AnchoredPosition: {x: 0, y: 64}
+  m_SizeDelta: {x: 939.3, y: 338.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237512747
 MonoBehaviour:
@@ -345,7 +345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Eu viajo quinta-feira..."'
+  m_Text: Cordel
 --- !u!222 &237512748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -492,7 +492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1. CORREIO DA ESTA\xC7\xC3O DO BR\xC1S"
+  m_Text: 7. JOIA DA "PRINCESA"
 --- !u!222 &584941380
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -651,7 +651,7 @@ Prefab:
     - target: {fileID: 224014082050523392, guid: 8d0326aa74d736743973fe8e2f657c29,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224014082050523392, guid: 8d0326aa74d736743973fe8e2f657c29,
         type: 2}
@@ -702,6 +702,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768477163092984, guid: 8d0326aa74d736743973fe8e2f657c29, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d0326aa74d736743973fe8e2f657c29, type: 2}
