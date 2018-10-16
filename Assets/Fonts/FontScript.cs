@@ -27,25 +27,25 @@ public class FontScript : MonoBehaviour {
 		else if(answer.Contains("trem") && answer.Contains("tomba")) {
 			SceneManager.LoadScene(3);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("domingos") && answer.Contains("ana")) {
 			SceneManager.LoadScene(4);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("rio subaé")) {
 			SceneManager.LoadScene(5);
 		}
-		else if(answer.Contains("atormentado")) {
+		else if(answer.Contains("ruy barbosa")) {
 			SceneManager.LoadScene(6);
 		}
-		else if(answer.Contains("ruy barbosa")) {
+		else if(answer.Contains("atormentado")) {
 			SceneManager.LoadScene(7);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("aos que tem sede")) {
 			SceneManager.LoadScene(8);
 		}
 		else if(answer.Contains("pindoba") && answer.Contains("tábua") && answer.Contains("prato raso") && answer.Contains("grande") && answer.Contains("salgada") && answer.Contains("geladinho") && answer.Contains("subaé") && answer.Contains("chico maia") && answer.Contains("berreca")) {
 			SceneManager.LoadScene(9);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("ponte rio branco")) {
 			SceneManager.LoadScene(10);
 		}
 		else if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
