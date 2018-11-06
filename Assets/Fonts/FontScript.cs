@@ -51,31 +51,31 @@ public class FontScript : MonoBehaviour {
 		else if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
 			SceneManager.LoadScene(11);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("1000000")) {
 			SceneManager.LoadScene(12);
 		}
 		else if(answer.Contains("1009")) {
 			SceneManager.LoadScene(13);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("500000")) {
 			SceneManager.LoadScene(14);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("100000")) {
 			SceneManager.LoadScene(15);
 		}
 		else if(answer.Contains("festa") && answer.Contains("de") && answer.Contains("santana")) {
 			SceneManager.LoadScene(16);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("100000")) {
 			SceneManager.LoadScene(17);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("100000")) {
 			SceneManager.LoadScene(18);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("100000")) {
 			SceneManager.LoadScene(19);
 		}
-		else if(answer.Contains("")) {
+		else if(answer.Contains("100000")) {
 			SceneManager.LoadScene(20);
 		}
 		else if(answer.Contains("todos os caminhos levam a feira de santana")) {
