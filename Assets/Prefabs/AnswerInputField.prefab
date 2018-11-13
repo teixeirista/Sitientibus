@@ -163,7 +163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Quase l\xE1! Est\xE1 no caminho certo."
+  m_Text: "Est\xE1 no caminho certo."
 --- !u!114 &114425091177570284
 MonoBehaviour:
   m_ObjectHideFlags: 1

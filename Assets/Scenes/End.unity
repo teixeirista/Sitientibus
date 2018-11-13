@@ -310,8 +310,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -207}
-  m_SizeDelta: {x: 996.6, y: 538.05}
+  m_AnchoredPosition: {x: 0, y: 62}
+  m_SizeDelta: {x: 996.6, y: 923.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276641943
 MonoBehaviour:
@@ -340,12 +340,14 @@ MonoBehaviour:
     m_MinSize: 0
     m_MaxSize: 200
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Esta \xE9 apenas uma vers\xE3o de demonstra\xE7\xE3o.\nH\xE1 mais por vir."
+  m_Text: "Esse jogo foi desenvolvido com o objetivo de difundir a cultura de Feira
+    de Santana. \nCada enigma abordou um tema espec\xEDfico sobre a hist\xF3ria da
+    nossa cidade.\n\nEspero que tenha gostado!"
 --- !u!222 &276641944
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -457,7 +459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 328}
+  m_AnchoredPosition: {x: 0, y: 726}
   m_SizeDelta: {x: 996.6, y: 538.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &584941379

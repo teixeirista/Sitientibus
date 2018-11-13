@@ -493,7 +493,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 19. LUCAS DA FEIRA
+  m_Text: "19. S\xC3O LUCAS"
 --- !u!222 &584941380
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -652,7 +652,7 @@ Prefab:
     - target: {fileID: 224014082050523392, guid: 8d0326aa74d736743973fe8e2f657c29,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224014082050523392, guid: 8d0326aa74d736743973fe8e2f657c29,
         type: 2}
@@ -703,10 +703,6 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1768477163092984, guid: 8d0326aa74d736743973fe8e2f657c29, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d0326aa74d736743973fe8e2f657c29, type: 2}
