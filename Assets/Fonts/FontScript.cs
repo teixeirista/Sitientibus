@@ -12,7 +12,7 @@ public class FontScript : MonoBehaviour {
 	string answer;
 	public GameObject wrong;
 	public GameObject almost;
-	public Text eia;
+	public Transform iFieldTrans;
 
 	void Start(){
 		iField = GetComponent<InputField>();
@@ -26,6 +26,10 @@ public class FontScript : MonoBehaviour {
 	private void Wrong() {
 		almost.SetActive(false);
 		wrong.SetActive(true);
+	}
+
+	public void SetPosition() {
+		iFieldTrans.position = new Vector2(360,600);
 	}
      
     public void VerifyAnswer()
