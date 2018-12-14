@@ -22,13 +22,13 @@ EditorBuildSettings:
     guid: 079b6fee815253f4b89feed4888d3786
   - enabled: 1
     path: Assets/Scenes/Stage5.unity
-    guid: 837cd355e41bb6445a4dd155da1ebbfd
+    guid: 1682bd5a8ef7bb14d9dfbfa61d48160f
   - enabled: 1
     path: Assets/Scenes/Stage6.unity
-    guid: 435ca8b94ab8e68439207f15b032cd49
+    guid: 169ff2e536a9b194bad5ae2178114071
   - enabled: 1
     path: Assets/Scenes/Stage7.unity
-    guid: aea2d089aa4a3b448b318f9f7a2f8088
+    guid: e5a3d0ea89313d749aded862c5f73e0d
   - enabled: 1
     path: Assets/Scenes/Stage8.unity
     guid: a6937437fd8261a4db6e8c656aef473e
@@ -40,34 +40,31 @@ EditorBuildSettings:
     guid: 076d7b55e833dac4cafd9388e189d4cf
   - enabled: 1
     path: Assets/Scenes/Stage11.unity
-    guid: 4ec9aaef2f8f12b4c963b05343e37aeb
+    guid: 78f496ee4c745a94c8a50c756f932120
   - enabled: 1
     path: Assets/Scenes/Stage12.unity
     guid: b9a55161b380f3d4e9f43e95e5f1651d
   - enabled: 1
     path: Assets/Scenes/Stage13.unity
-    guid: bc78a0920a2998b4389df0ab06239bbf
+    guid: ff93455d7995dc24788f0b4ee67abbcd
   - enabled: 1
     path: Assets/Scenes/Stage14.unity
-    guid: 589851a8f99f2314592c00d999386827
+    guid: e71bcd987ff97a84086639e84c8a89ef
   - enabled: 1
     path: Assets/Scenes/Stage15.unity
     guid: 2aefcbdbfafc5f541b4a65d4f537d88d
   - enabled: 1
     path: Assets/Scenes/Stage16.unity
-    guid: 26eef661884eea14d8b207703340200a
+    guid: 3881cb839fc2e8348857e4edb52d113f
   - enabled: 1
     path: Assets/Scenes/Stage17.unity
-    guid: 7872bec7536483842a9e772d77cb0a92
+    guid: fb834ff549ecf8c4b83d9a46b045f2c3
   - enabled: 1
     path: Assets/Scenes/Stage18.unity
-    guid: 313fa818ef4a6c244a70ea4543e207a5
+    guid: e59e1cec9a5cec94f8e014befd7c1184
   - enabled: 1
     path: Assets/Scenes/Stage19.unity
-    guid: c3deaedb15992584aa5be1dd45365a40
-  - enabled: 1
-    path: Assets/Scenes/Stage20.unity
-    guid: a6d32ad1114afe045bd94e273474669c
+    guid: 8be82cf6c5ea5f3469c1cc8b3ecf8f94
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 2cda990e2423bbf4892e6590ba056729

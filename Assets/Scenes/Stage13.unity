@@ -297,7 +297,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1721143564
+--- !u!1001 &1839703514
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -400,28 +400,42 @@ Prefab:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1225734766744282, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
+      propertyPath: m_Name
+      value: Canvas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225734766744282, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114384483097098820, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: 9. COR
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: "Ant\xF4nio Moreira Ferreira\n21 de mar\xE7o de 2010"
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 224550981587921446, guid: 5f56e4519710f9c40b8474119d5f5df7,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224299622688761368, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.0000076293945
+      propertyPath: m_AnchoredPosition.y
+      value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 224299622688761368, guid: 5f56e4519710f9c40b8474119d5f5df7,
+    - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 592.25
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
+        type: 2}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}

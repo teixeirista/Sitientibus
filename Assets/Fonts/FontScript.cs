@@ -16,6 +16,7 @@ public class FontScript : MonoBehaviour {
 
 	void Start(){
 		iField = GetComponent<InputField>();
+		index = SceneManager.GetActiveScene().buildIndex;
 	}
 
 	private void Almost() {
@@ -28,6 +29,16 @@ public class FontScript : MonoBehaviour {
 		wrong.SetActive(true);
 	}
 
+	private void Correct(int scene) {
+		if(index > 0 && index < 19)
+			LevelClear.levelClear.UnlockStage(scene);
+
+		if(scene <= LevelClear.levelClear.GetStageAt())
+            SceneManager.LoadScene(scene);
+        else
+            return;
+	}
+
 	public void SetPosition() {
 		iFieldTrans.position = new Vector2(360,600);
 	}
@@ -36,14 +47,19 @@ public class FontScript : MonoBehaviour {
     {
 		answer = iField.text.ToLower();
 		wrong.SetActive(false);
-		index = SceneManager.GetActiveScene().buildIndex;
+
+		if(answer == "") {
+			almost.SetActive(false);
+			wrong.SetActive(false);
+			return;
+		}
 
 
 		switch (index)
 		{
 			case 1:
 				if(answer.Contains("feira de santana")) {
-					SceneManager.LoadScene(2);
+					Correct(2);
 				}
 				else if(answer.Contains("feira") || answer.Contains("santana")) {
 					Almost();
@@ -54,7 +70,7 @@ public class FontScript : MonoBehaviour {
 
 			case 2:
 				if(answer.Contains("lugar") && answer.Contains("trem") && answer.Contains("tomba")) {
-					SceneManager.LoadScene(3);
+					Correct(3);
 				}
 				else if(answer.Contains("lugar") || answer.Contains("trem") || answer.Contains("tomba")) {
 					Almost();
@@ -65,7 +81,7 @@ public class FontScript : MonoBehaviour {
 
 			case 3:
 				if(answer.Contains("domingos") && answer.Contains("ana")) {
-					SceneManager.LoadScene(4);
+					Correct(4);
 				}
 				else if(answer.Contains("domingos") || answer.Contains("ana")) {
 					Almost();
@@ -76,7 +92,7 @@ public class FontScript : MonoBehaviour {
 
 			case 4:
 				if(answer.Contains("rio subaé")) {
-					SceneManager.LoadScene(5);
+					Correct(5);
 				}
 				else if(answer.Contains("subaé")) {
 					Almost();
@@ -87,7 +103,7 @@ public class FontScript : MonoBehaviour {
 
 			case 5:
 				if(answer.Contains("ruy barbosa")) {
-					SceneManager.LoadScene(6);
+					Correct(6);
 				}
 				else if(answer.Contains("ruy") || answer.Contains("barbosa")) {
 					Almost();
@@ -98,7 +114,7 @@ public class FontScript : MonoBehaviour {
 
 			case 6:
 				if(answer.Contains("atormentado")) {
-					SceneManager.LoadScene(7);
+					Correct(7);
 				} else {
 					Wrong();
 				}
@@ -106,7 +122,7 @@ public class FontScript : MonoBehaviour {
 
 			case 7:
 				if(answer.Contains("aos que tem sede")) {
-					SceneManager.LoadScene(8);
+					Correct(8);
 				}
 				else if(answer.Contains("sede")) {
 					Almost();
@@ -117,7 +133,7 @@ public class FontScript : MonoBehaviour {
 
 			case 8:
 				if(answer.Contains("pindoba") && answer.Contains("tábua") && answer.Contains("prato raso") && answer.Contains("grande") && answer.Contains("salgada") && answer.Contains("geladinho") && answer.Contains("subaé") && answer.Contains("chico maia") && answer.Contains("berreca")) {
-					SceneManager.LoadScene(9);
+					Correct(9);
 				}
 				else if(answer.Contains("pindoba") || answer.Contains("tábua") || answer.Contains("prato raso") || answer.Contains("grande") || answer.Contains("salgada") || answer.Contains("geladinho") || answer.Contains("subaé") || answer.Contains("chico maia") || answer.Contains("berreca")) {
 					Almost();
@@ -128,7 +144,7 @@ public class FontScript : MonoBehaviour {
 
 			case 9:
 				if(answer.Contains("ponte rio branco")) {
-					SceneManager.LoadScene(10);
+					Correct(10);
 				}
 				else if(answer.Contains("rio") || answer.Contains("branco")) {
 					Almost();
@@ -139,7 +155,7 @@ public class FontScript : MonoBehaviour {
 
 			case 10:
 				if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
-					SceneManager.LoadScene(11);
+					Correct(12);
 				}
 				else if(answer.Contains("cidade nova") || answer.Contains("jomafa") || answer.Contains("viveiros")) {
 					Almost();
@@ -150,7 +166,7 @@ public class FontScript : MonoBehaviour {
 
 			case 11:
 				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(12);
+					Correct(12);
 				}
 				else if(answer.Contains("quase")) {
 					Almost();
@@ -161,7 +177,7 @@ public class FontScript : MonoBehaviour {
 
 			case 12:
 				if(answer.Contains("1009")) {
-					SceneManager.LoadScene(13);
+					Correct(15);
 				}
 				else if(answer.Contains("bicho do tomba")) {
 					Almost();
@@ -172,7 +188,7 @@ public class FontScript : MonoBehaviour {
 
 			case 13:
 				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(14);
+					Correct(14);
 				}
 				else if(answer.Contains("quase")) {
 					Almost();
@@ -183,7 +199,7 @@ public class FontScript : MonoBehaviour {
 
 			case 14:
 				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(15);
+					Correct(15);
 				}
 				else if(answer.Contains("quase")) {
 					Almost();
@@ -194,7 +210,7 @@ public class FontScript : MonoBehaviour {
 
 			case 15:
 				if(answer.Contains("festa") && answer.Contains("de") && answer.Contains("santana")) {
-					SceneManager.LoadScene(16);
+					Correct(19);
 				}
 				else if(answer.Contains("bando anunciador") || answer.Contains("festa") || answer.Contains("santana")) {
 					Almost();
@@ -205,7 +221,7 @@ public class FontScript : MonoBehaviour {
 
 			case 16:
 				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(17);
+					Correct(17);
 				}
 				else if(answer.Contains("quase")) {
 					Almost();
@@ -216,7 +232,7 @@ public class FontScript : MonoBehaviour {
 
 			case 17:
 				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(18);
+					Correct(18);
 				}
 				else if(answer.Contains("quase")) {
 					Almost();
@@ -227,7 +243,7 @@ public class FontScript : MonoBehaviour {
 			
 			case 18:
 				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(19);
+					Correct(19);
 				}
 				else if(answer.Contains("quase")) {
 					Almost();
@@ -237,19 +253,8 @@ public class FontScript : MonoBehaviour {
 				break;
 
 			case 19:
-				if(answer.Contains("correto")) {
-					SceneManager.LoadScene(20);
-				}
-				else if(answer.Contains("quase")) {
-					Almost();
-				} else {
-					Wrong();
-				}
-				break;
-
-			case 20:
 				if(answer.Contains("todos os caminhos levam a feira de santana")) {
-					SceneManager.LoadScene(21);
+					SceneManager.LoadScene(20);
 				}
 				else if(answer.Contains("caminhos")) {
 					Almost();
@@ -262,66 +267,3 @@ public class FontScript : MonoBehaviour {
 		}
 	}
 }
-/*		if(answer.Contains("feira de santana")) {
-			SceneManager.LoadScene(2);
-		}
-		else if(answer.Contains("trem") && answer.Contains("tomba")) {
-			SceneManager.LoadScene(3);
-		}
-		else if(answer.Contains("domingos") && answer.Contains("ana")) {
-			SceneManager.LoadScene(4);
-		}
-		else if(answer.Contains("rio subaé")) {
-			SceneManager.LoadScene(5);
-		}
-		else if(answer.Contains("ruy barbosa")) {
-			SceneManager.LoadScene(6);
-		}
-		else if(answer.Contains("atormentado")) {
-			SceneManager.LoadScene(7);
-		}
-		else if(answer.Contains("aos que tem sede")) {
-			SceneManager.LoadScene(8);
-		}
-		else if(answer.Contains("pindoba") && answer.Contains("tábua") && answer.Contains("prato raso") && answer.Contains("grande") && answer.Contains("salgada") && answer.Contains("geladinho") && answer.Contains("subaé") && answer.Contains("chico maia") && answer.Contains("berreca")) {
-			SceneManager.LoadScene(9);
-		}
-		else if(answer.Contains("ponte rio branco")) {
-			SceneManager.LoadScene(10);
-		}
-		else if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
-			SceneManager.LoadScene(11);
-		}
-		else if(answer.Contains("1000000")) {
-			SceneManager.LoadScene(12);
-		}
-		else if(answer.Contains("1009")) {
-			SceneManager.LoadScene(13);
-		}
-		else if(answer.Contains("500000")) {
-			SceneManager.LoadScene(14);
-		}
-		else if(answer.Contains("100000")) {
-			SceneManager.LoadScene(15);
-		}
-		else if(answer.Contains("festa") && answer.Contains("de") && answer.Contains("santana")) {
-			SceneManager.LoadScene(16);
-		}
-		else if(answer.Contains("100000")) {
-			SceneManager.LoadScene(17);
-		}
-		else if(answer.Contains("100000")) {
-			SceneManager.LoadScene(18);
-		}
-		else if(answer.Contains("100000")) {
-			SceneManager.LoadScene(19);
-		}
-		else if(answer.Contains("100000")) {
-			SceneManager.LoadScene(20);
-		}
-		else if(answer.Contains("todos os caminhos levam a feira de santana")) {
-			SceneManager.LoadScene(21);
-		}
-		else {
-			wrong.SetActive(true);
-		}*/
