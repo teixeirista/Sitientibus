@@ -30,7 +30,7 @@ public class FontScript : MonoBehaviour {
 	}
 
 	private void Correct(int scene) {
-		if(index > 0 && index < 19)
+		if(index > 0 && index < 17)
 			LevelClear.levelClear.UnlockStage(scene);
 
 		if(scene <= LevelClear.levelClear.GetStageAt())
@@ -121,10 +121,10 @@ public class FontScript : MonoBehaviour {
 				break;
 
 			case 7:
-				if(answer.Contains("aos que tem sede")) {
+				if(answer.Contains("todo poder aos feirenses")) {
 					Correct(8);
 				}
-				else if(answer.Contains("sede")) {
+				else if(answer.Contains("poder") || answer.Contains("feirenses")) {
 					Almost();
 				} else {
 					Wrong();
@@ -165,10 +165,10 @@ public class FontScript : MonoBehaviour {
 				break;
 
 			case 11:
-				if(answer.Contains("correto")) {
+				if(answer.Contains("bicho-preguiça")) {
 					Correct(12);
 				}
-				else if(answer.Contains("quase")) {
+				else if(answer.Contains("beto") || answer.Contains("OVNI")) {
 					Almost();
 				} else {
 					Wrong();
@@ -187,30 +187,8 @@ public class FontScript : MonoBehaviour {
 				break;
 
 			case 13:
-				if(answer.Contains("correto")) {
-					Correct(14);
-				}
-				else if(answer.Contains("quase")) {
-					Almost();
-				} else {
-					Wrong();
-				}
-				break;
-
-			case 14:
-				if(answer.Contains("correto")) {
-					Correct(15);
-				}
-				else if(answer.Contains("quase")) {
-					Almost();
-				} else {
-					Wrong();
-				}
-				break;
-
-			case 15:
 				if(answer.Contains("festa") && answer.Contains("de") && answer.Contains("santana")) {
-					Correct(19);
+					Correct(14);
 				}
 				else if(answer.Contains("bando anunciador") || answer.Contains("festa") || answer.Contains("santana")) {
 					Almost();
@@ -219,7 +197,29 @@ public class FontScript : MonoBehaviour {
 				}
 				break;
 
-			case 16:
+			case 14:
+				if(answer.Contains("quarto 201")) {
+					Correct(15);
+				}
+				else if(answer.Contains("hotel samburá") || answer.Contains("leonardo pareja")) {
+					Almost();
+				} else {
+					Wrong();
+				}
+				break;
+
+			case 15:
+				if(answer.Contains("praça do nordestino")) {
+					Correct(16);
+				}
+				else if(answer.Contains("gameleira") || answer.Contains("dom pedro ii")) {
+					Almost();
+				} else {
+					Wrong();
+				}
+				break;
+
+			/*case 16:
 				if(answer.Contains("correto")) {
 					Correct(17);
 				}
@@ -250,11 +250,11 @@ public class FontScript : MonoBehaviour {
 				} else {
 					Wrong();
 				}
-				break;
+				break; */
 
-			case 19:
+			case 16:
 				if(answer.Contains("todos os caminhos levam a feira de santana")) {
-					SceneManager.LoadScene(20);
+					SceneManager.LoadScene(17);
 				}
 				else if(answer.Contains("caminhos")) {
 					Almost();
