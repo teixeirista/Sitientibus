@@ -155,7 +155,7 @@ public class FontScript : MonoBehaviour {
 
 			case 10:
 				if(answer.Contains("cidade nova") && answer.Contains("jomafa") && answer.Contains("viveiros")) {
-					Correct(12);
+					Correct(11);
 				}
 				else if(answer.Contains("cidade nova") || answer.Contains("jomafa") || answer.Contains("viveiros")) {
 					Almost();
@@ -177,7 +177,7 @@ public class FontScript : MonoBehaviour {
 
 			case 12:
 				if(answer.Contains("1009")) {
-					Correct(15);
+					Correct(13);
 				}
 				else if(answer.Contains("bicho do tomba")) {
 					Almost();
