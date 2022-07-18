@@ -297,7 +297,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1762913392
+--- !u!1001 &1783326575
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -401,22 +401,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1225734766744282, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
       propertyPath: m_Name
-      value: Canvas
+      value: Canvas (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114384483097098820, guid: 5f56e4519710f9c40b8474119d5f5df7,
-        type: 2}
-      propertyPath: m_Text
-      value: 3. CRIADORES
+    - target: {fileID: 1225734766744282, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: Do casal, nasce a feira
+      value: 'I    II
+
+        III'
       objectReference: {fileID: 0}
-    - target: {fileID: 224550981587921446, guid: 5f56e4519710f9c40b8474119d5f5df7,
+    - target: {fileID: 114384483097098820, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
-      propertyPath: m_RootOrder
-      value: 4
+      propertyPath: m_Text
+      value: "3. ...MAS J\xC1 N\xC3O \xC9 MAIS"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}

@@ -17,9 +17,9 @@ public class Menu : MonoBehaviour {
             if(scene == 0)
                 //Se a cena ativa for o menu, encerra a aplicação
                 Application.Quit();
-            else if (scene > 0 && scene < 17) 
+            else if (scene > 0 && scene < 10) 
                 //Se for um dos enigmas, carrega a cena de seleção de fase
-                LoadStageScene(18);
+                LoadStageScene(11);
             else 
                 //Se não for nenhuma das duas outras, volta para o menu inicial
                 SceneManager.LoadScene(0);

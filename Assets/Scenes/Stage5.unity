@@ -401,7 +401,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1225734766744282, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
       propertyPath: m_Name
-      value: Canvas (1)
+      value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 114384483097098820, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
@@ -411,7 +411,7 @@ Prefab:
     - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: "A j\xF3ia da princesa fica dentro do portal"
+      value: "A j\xF3ia da princesa fica \ndentro do portal"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}

@@ -304,7 +304,7 @@ Prefab:
     - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: e segue todos os santos
+      value: "e segue todos os\n santos"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}

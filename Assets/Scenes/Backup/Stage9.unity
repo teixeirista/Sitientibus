@@ -297,7 +297,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1712888051
+--- !u!1001 &1721143564
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -399,25 +399,19 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1225734766744282, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114384483097098820, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: 11. PROIBIDO 3.
+      value: 9. COR
       objectReference: {fileID: 0}
     - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_Text
-      value: CASO FEIRA DE SANTANA
-      objectReference: {fileID: 0}
-    - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
-        type: 2}
-      propertyPath: m_FontData.m_FontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114931219244236278, guid: 5f56e4519710f9c40b8474119d5f5df7,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 82
+      value: "Ant\xF4nio Moreira Ferreira\n21 de mar\xE7o de 2010"
       objectReference: {fileID: 0}
     - target: {fileID: 224299622688761368, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
@@ -427,12 +421,7 @@ Prefab:
     - target: {fileID: 224299622688761368, guid: 5f56e4519710f9c40b8474119d5f5df7,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 660.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 224550981587921446, guid: 5f56e4519710f9c40b8474119d5f5df7,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 4
+      value: 592.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f56e4519710f9c40b8474119d5f5df7, type: 2}
